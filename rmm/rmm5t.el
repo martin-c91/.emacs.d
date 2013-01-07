@@ -1,6 +1,7 @@
-(add-to-list 'load-path  "~/Dropbox/emacs.d/rmm/vendor")
+(add-to-list 'load-path  (expand-file-name "vendor"))
 
-(setq custom-file "~/Dropbox/emacs.d/rmm/rmm5t/custom.el")
+(setq custom-file (expand-file-name "rmm5t/custom.el"))
+(setq custom-file (expand-file-name "rmm5t/custom.el"))
 (load custom-file 'noerror)
 
 (load "rmm5t/theme")
@@ -37,10 +38,11 @@
 (load "rmm5t/smex")
 
 ;;auto-complete
-(add-to-list 'load-path "~/Dropbox/emacs.d/rmm/vendor/auto-complete"); This may not be appeared if you have already added.
+(add-to-list 'load-path (expand-file-name "vendor/auto-complete")); This may not be appeared if you have already added.
 (require 'auto-complete-config)
 (ac-config-default)
-(add-to-list 'ac-dictionary-directories "~/Dropbox/emacs.d/rmm/vendor/auto-complete/ac-dict")
+(add-to-list 'ac-dictionary-directories (expand-file-name "vendor/auto-complete/ac-dict"))
+
 ;;popup
 (require 'popup)
 
