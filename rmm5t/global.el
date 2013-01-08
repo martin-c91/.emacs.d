@@ -20,7 +20,10 @@
 
 ;; Modeline info
 (display-time-mode 1)
-(display-battery-mode 1)
+
+(condition-case nil
+    (display-battery-mode 1)
+	(error nil))
 
 ;; Small fringes
 (set-fringe-mode '(1 . 1))
@@ -30,7 +33,10 @@
   (toggle-scroll-bar -1))
 
 ;; Menu must go as well
-(menu-bar-mode -1)
+     (condition-case nil
+         (menu-bar-mode -1)
+       (error nil))
+
 
 ;;tool bar bar too
 (tool-bar-mode -1)
