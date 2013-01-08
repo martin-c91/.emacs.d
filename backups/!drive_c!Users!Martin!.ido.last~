@@ -1,0 +1,43 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("c:/Users/Martin/.akarin.d/" . "rmm5t/")
+ ("c:/Users/Martin/Dropbox/emacs.d/rmm/" . "rmm5t/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "c:/Users/Martin/.emacs.d/"
+ "c:/Users/Martin/.akarin.d/akarin/"
+ "c:/Users/Martin/.akarin.d/"
+ "c:/Users/Martin/"
+ "c:/Users/Martin/Dropbox/emacs.d/rmm/rmm5t/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "akarin.el"
+ "defuns.el"
+ "hl-line.el"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("c:/Users/Martin/.emacs.d/" (20715 22794) "vendor/" "server/" "rmm5t.el" "rmm5t/" "akarin.el" "../" "./")
+
+ ("c:/Users/Martin/" (20715 22715) "_vimrc/" "_viminfo" "Videos/" "text.txt" "Templates/" "Start Menu/" "SendTo/" "Searches/" "Saved Games/" "Recent/" "PrintHood/" "Pictures/" "ntuser.ini" "NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM.blf" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "NetHood/" "My Documents/" "Music/" "mplayer/" "Local Settings/" "Links/" "Favorites/" "Dropbox/" "Downloads/" "Documents/" "Desktop/" "Cookies/" "Contacts/" "Application Data/" "AppData/" ".vimrc" ".smex-items" ".recentf" ".lesshst" ".ido.last" ".gitconfig" ".emacs~" ".emacs.d/" ".emacs" ".bash_history" "../" "./")
+
+ ("c:/Users/Martin/.akarin.d/akarin/" (20715 21759) "zoom.el" "yasnippet.el" "yaml-mode.el" "utf-8.el" "transparent.el" "theme.el" "textile-mode.el" "tabs.el" "shell-pop.el" "shell-mode.el" "server-mode.el" "scratch.el" "ruby-mode.el" "rinari.el" "ri-emacs.el" "rectangle.el" "recentf.el" "rails.el" "psvn.el" "org.el" "maxframe.el" "markdown-mode.el" "magit.el" "mac.el" "lua-mode.el" "key-chord.el" "js2-mode.el" "jekyll.el" "javascript.el" "iswitchb.el" "ido.el" "htmlize.el" "hl-line.el" "grep.el" "global.el" "full-ack.el" "fonts.el" "flymake.el" "env.el" "disabled.el" "dired.el" "diff.el" "defuns.el~" "defuns.el" "custom.el" "csv-mode.el" "cdargs.el" "bindings.el" "auctex.el" "ace-jump-mode.el" "#tabs.el#" "#iswitchb.el#" "#global.el#" "#bindings.el#" "../" "./")
+
+ ("c:/Users/Martin/.akarin.d/" (20715 21206) "vendor/" "akarin.el~" "akarin.el" "akarin/" ".git/" "../" "./")
+
+ ("c:/Users/Martin/.akarin.d/rmm5t/" (20715 18205) "zoom.el" "yasnippet.el" "yaml-mode.el" "utf-8.el" "transparent.el" "theme.el" "textile-mode.el" "tabs.el" "smex.el" "shell-pop.el" "shell-mode.el" "server-mode.el" "scratch.el" "ruby-mode.el" "rinari.el" "ri-emacs.el" "rectangle.el" "recentf.el" "rails.el" "psvn.el" "org.el" "maxframe.el" "markdown-mode.el" "magit.el" "mac.el" "lua-mode.el" "key-chord.el" "js2-mode.el" "jekyll.el" "javascript.el" "iswitchb.el" "ido.el" "htmlize.el" "hl-line.el" "grep.el" "global.el" "full-ack.el" "fonts.el" "flymake.el" "env.el" "disabled.el" "dired.el" "diff.el" "defuns.el" "custom.el" "csv-mode.el" "cdargs.el" "bindings.el" "auctex.el" "ace-jump-mode.el" "#tabs.el#" "#iswitchb.el#" "#global.el#" "#defuns.el#" "#bindings.el#" "../" "./")
+
+ ("c:/Users/Martin/Dropbox/emacs.d/rmm/" (20715 13358) "vendor/" "rmm5t.el" "rmm5t/" "akarin.el" "../" "./")
+
+ ("c:/Users/Martin/Dropbox/emacs.d/rmm/rmm5t/" (20714 60448) "zoom.el" "yasnippet.el" "yaml-mode.el" "utf-8.el" "transparent.el" "theme.el" "textile-mode.el" "tabs.el" "smex.el" "shell-pop.el" "shell-mode.el" "server-mode.el" "scratch.el" "ruby-mode.el" "rinari.el" "ri-emacs.el" "rectangle.el" "recentf.el" "rails.el" "psvn.el" "org.el" "maxframe.el" "markdown-mode.el" "magit.el" "mac.el" "lua-mode.el" "key-chord.el" "js2-mode.el" "jekyll.el" "javascript.el" "iswitchb.el" "ido.el" "htmlize.el" "hl-line.el" "grep.el" "global.el" "full-ack.el" "fonts.el" "flymake.el" "env.el" "disabled.el" "dired.el" "diff.el" "defuns.el" "custom.el" "csv-mode.el" "cdargs.el" "bindings.el" "auctex.el" "ace-jump-mode.el" "#tabs.el#" "#iswitchb.el#" "#global.el#" "#defuns.el#" "#bindings.el#" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
