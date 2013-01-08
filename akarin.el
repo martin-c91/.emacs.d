@@ -19,7 +19,7 @@
 (load "rmm5t/zoom")
 
 ;; (load "rmm5t/transparent")
-;; (load "rmm5t/hl-line")
+(load "rmm5t/hl-line")
 ;; (load "rmm5t/iswitchb")
 
 (vendor 'smex)
