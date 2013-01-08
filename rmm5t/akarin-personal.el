@@ -17,5 +17,3 @@
 	(decf n)))))
 
 (global-set-key (kbd "C-S-d") 'duplicate-current-line)
-
-;;shell current directory
