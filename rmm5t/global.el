@@ -34,7 +34,7 @@
 
 ;; Menu must go as well
      (condition-case nil
-         (menu-bar-mode -1)
+	 (menu-bar-mode -1)
        (error nil))
 
 
@@ -89,3 +89,6 @@
 
 ;;visual line mode
 (global-visual-line-mode t)
+
+;;set default directory
+(cd (expand-file-name "~"))

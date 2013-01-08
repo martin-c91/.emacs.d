@@ -17,6 +17,7 @@
 (load "rmm5t/recentf")
 (load "rmm5t/org")
 (load "rmm5t/zoom")
+(load "rmm5t/magit")
 
 ;; (load "rmm5t/transparent")
 (load "rmm5t/hl-line")
@@ -24,7 +25,7 @@
 
 (vendor 'smex)
 (vendor 'akarin)
-
+(vendor 'magit)
 
 ;;auto-complete
 ;; (add-to-list 'load-path "~/.emacs.d/vendor/auto-complete"); This may not be appeared if you have already added.
