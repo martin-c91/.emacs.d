@@ -3,6 +3,7 @@
 (setq custom-file "~/.emacs.d/rmm5t/custom.el")
 (load custom-file 'noerror)
 
+(load "rmm5t/akarin-personal")
 (load "rmm5t/theme")
 (load "rmm5t/global")
 (load "rmm5t/defuns")
@@ -29,6 +30,7 @@
 (vendor 'magit)
 (vendor 'shell-pop)
 (vendor 'browse-kill-ring)
+(vendor 'undo-tree)
 
 ;;auto-complete
 ;; (add-to-list 'load-path "~/.emacs.d/vendor/auto-complete"); This may not be appeared if you have already added.

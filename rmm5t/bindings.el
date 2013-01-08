@@ -99,3 +99,8 @@
 (global-set-key (kbd "M-X") 'smex-major-mode-commands)
 ;; This is your old M-x.
 (global-set-key (kbd "C-c C-c M-x") 'execute-extended-command)
+
+;;undo-tree
+(defalias 'redo 'undo-tree-redo)
+(global-set-key (kbd "C-/") 'undo) ; 【Ctrl+z】
+(global-set-key (kbd "C-?") 'redo) ; 【Ctrl+Shift+z】
