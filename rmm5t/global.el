@@ -20,7 +20,7 @@
 
 ;; Modeline info
 (display-time-mode 1)
-;; (display-battery-mode 1)
+(display-battery-mode 1)
 
 ;; Small fringes
 (set-fringe-mode '(1 . 1))
@@ -32,6 +32,8 @@
 ;; Menu must go as well
 (menu-bar-mode -1)
 
+;;tool bar bar too
+(tool-bar-mode -1)
 
 ;; Explicitly show the end of a buffer
 (set-default 'indicate-empty-lines t)
