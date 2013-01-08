@@ -57,7 +57,8 @@
  '(backup-by-copying t)
  '(kept-new-versions 10)
  '(kept-old-versions 20)
- '(version-control t))
+ '(delete-old-versions t)
+ '(version-control -1))
 
 
 ;; Gotta see matching parens
