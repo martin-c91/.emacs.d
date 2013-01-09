@@ -102,5 +102,8 @@
 
 ;;undo-tree
 (defalias 'redo 'undo-tree-redo)
-(global-set-key (kbd "C-/") 'undo) ; 【Ctrl+z】
-(global-set-key (kbd "C-?") 'redo) ; 【Ctrl+Shift+z】
+(global-set-key (kbd "C-/") 'undo) ;
+(global-set-key (kbd "C-?") 'redo) ;
+
+;;eshell
+(global-set-key (kbd "C-c C-s") 'eshell) ;
