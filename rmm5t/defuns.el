@@ -6,9 +6,9 @@
 ;; furthur modified by tin----
 (defun vendor (library &rest autoload-functions)
   (let* ((file (symbol-name library))
-         (normal (concat "~/.emacs.d/vendor/" file))
+         (normal (concat (expand-file-name "vendor/" my-el-dir) file))
          (suffix (concat normal ".el"))
-         (personal (concat "~/.emacs.d/rmm5t/" file))
+         (personal (concat (expand-file-name "rmm5t/" my-el-dir) file))
 	 (found nil))
     (cond
      ((file-directory-p normal) (add-to-list 'load-path normal) (set 'found t))

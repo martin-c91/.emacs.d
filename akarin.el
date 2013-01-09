@@ -1,4 +1,7 @@
-(setq my-el-dir "~/tmp/akarin.d")
+;;if my-el-dir is not defined, use .emacs.d as default
+(if (boundp 'my-el-dir) nil (progn
+		(setq my-el-dir "~/.emacs.d")))
+
 
 (add-to-list 'load-path  (expand-file-name "vendor" my-el-dir))
 
