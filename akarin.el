@@ -1,6 +1,11 @@
-(add-to-list 'load-path  "~/.emacs.d/vendor")
+;;if my-el-dir is not defined, use .emacs.d as default
+(if (boundp 'my-el-dir) nil (progn
+		(setq my-el-dir "~/.emacs.d")))
 
-(setq custom-file "~/.emacs.d/rmm5t/custom.el")
+(message my-el-dir)
+(add-to-list 'load-path  (expand-file-name "vendor" my-el-dir))
+
+(setq custom-file (expand-file-name "rmm5t/custom.el" my-el-dir))
 (load custom-file 'noerror)
 
 (load "rmm5t/akarin-personal")
