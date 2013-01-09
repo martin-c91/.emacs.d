@@ -1,6 +1,8 @@
-(add-to-list 'load-path  "~/.emacs.d/vendor")
+(setq my-el-dir "~/tmp/akarin.d")
 
-(setq custom-file "~/.emacs.d/rmm5t/custom.el")
+(add-to-list 'load-path  (expand-file-name "vendor" my-el-dir))
+
+(setq custom-file (expand-file-name "rmm5t/custom.el" my-el-dir))
 (load custom-file 'noerror)
 
 (load "rmm5t/akarin-personal")
