@@ -4,6 +4,7 @@
 [submodule "vendor/shell-pop"]
 	path = vendor/shell-pop
 	url = git://github.com/kyagi/shell-pop-el.git
+
 [submodule "vendor/undo-tree"]
 	path = vendor/undo-tree
 	url = http://www.dr-qubit.org/git/undo-tree.git
