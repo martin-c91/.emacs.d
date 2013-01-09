@@ -28,6 +28,7 @@
 ;; (load "rmm5t/iswitchb")
 
 (vendor 'smex)
+(vendor 'ido-complete-space-or-hyphen)
 (vendor 'akarin)
 (vendor 'magit)
 (vendor 'shell-pop)
