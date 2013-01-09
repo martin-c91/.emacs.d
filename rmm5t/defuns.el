@@ -3,6 +3,7 @@
 ;; For loading libraries from the vendor directory
 ;; Modified from defunkt's original version to support autoloading.
 ;; http://github.com/defunkt/emacs/blob/master/defunkt/defuns.el
+;; furthur modified by tin----
 (defun vendor (library &rest autoload-functions)
   (let* ((file (symbol-name library))
          (normal (concat "~/.emacs.d/vendor/" file))
