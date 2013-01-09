@@ -2,7 +2,7 @@
 (if (boundp 'my-el-dir) nil (progn
 		(setq my-el-dir "~/.emacs.d")))
 
-(message my-el-dir)
+
 (add-to-list 'load-path  (expand-file-name "vendor" my-el-dir))
 
 (setq custom-file (expand-file-name "rmm5t/custom.el" my-el-dir))
