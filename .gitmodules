@@ -1,0 +1,3 @@
+[submodule "ido-complete-space-or-hyphen"]
+	path = ido-complete-space-or-hyphen
+	url = git://github.com/doitian/ido-complete-space-or-hyphen.git
