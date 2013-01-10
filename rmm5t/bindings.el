@@ -107,3 +107,6 @@
 ;; Quickly jump in document with ace-jump-mode
 (define-key global-map (kbd "C-c SPC") 'ace-jump-mode)
 (define-key global-map (kbd "C-;") 'ace-jump-mode)
+
+;; Browse the kill ring
+(global-set-key (kbd "C-x y") 'browse-kill-ring)
