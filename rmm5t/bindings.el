@@ -4,10 +4,14 @@
 ;; http://xahlee.org/emacs/keyboard_shortcuts.html
 
 ;; Window manipulation
-(global-set-key [(control kp-6)] 'enlarge-window-horizontally)
-(global-set-key [(control kp-4)] 'shrink-window-horizontally)
-(global-set-key [(control kp-8)] 'enlarge-window)
-(global-set-key [(control kp-2)] 'shrink-window)
+;; (global-set-key [(control kp-6)] 'enlarge-window-horizontally)
+;; (global-set-key [(control kp-4)] 'shrink-window-horizontally)
+;; (global-set-key [(control kp-8)] 'enlarge-window)
+;; (global-set-key [(control kp-2)] 'shrink-window)
+(global-set-key (kbd "S-C-<left>") 'shrink-window-horizontally)
+(global-set-key (kbd "S-C-<right>") 'enlarge-window-horizontally)
+(global-set-key (kbd "S-C-<down>") 'shrink-window)
+(global-set-key (kbd "S-C-<up>") 'enlarge-window)
 
 ;; Find stuff
 (global-set-key [(f2)]              'ack-default-directory)
