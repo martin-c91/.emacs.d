@@ -103,3 +103,7 @@
 
 ;;eshell
 (global-set-key (kbd "C-c C-s") 'eshell) ;
+
+;; Quickly jump in document with ace-jump-mode
+(define-key global-map (kbd "C-c SPC") 'ace-jump-mode)
+(define-key global-map (kbd "C-;") 'ace-jump-mode)

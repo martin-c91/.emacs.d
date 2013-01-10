@@ -8,3 +8,6 @@
 [submodule "vendor/undo-tree"]
 	path = vendor/undo-tree
 	url = http://www.dr-qubit.org/git/undo-tree.git
+[submodule "vendor/ace-jump-mode"]
+	path = vendor/ace-jump-mode
+	url = git://github.com/winterTTr/ace-jump-mode.git

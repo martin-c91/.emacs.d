@@ -38,6 +38,8 @@
 (vendor 'browse-kill-ring)
 (vendor 'undo-tree)
 (vendor 'autopair)
+(vendor 'ace-jump-mode 'ace-jump-mode 'ace-jump-word-mode 'ace-jump-char-mode 'ace-jump-line-mode)
+
 
 ;;auto-complete
 ;; (add-to-list 'load-path "~/.emacs.d/vendor/auto-complete"); This may not be appeared if you have already added.
