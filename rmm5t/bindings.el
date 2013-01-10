@@ -17,18 +17,18 @@
 (global-set-key [(shift f2)]        'occur)
 
 ;; Keyboard macros
-(global-set-key [(shift f4)] 'kmacro-start-macro-or-insert-counter)
+;; (global-set-key [(shift f4)] 'kmacro-start-macro-or-insert-counter)
 ;; (global-set-key [(f4)]    'kmacro-end-or-call-macro)  ;; already defined
 
 ;; Refresh-like
 (global-set-key [(f5)]         'revert-buffer)
-(global-set-key [(control f5)] 'revbufs)
+
 
 ;; Indenting and alignment
-(global-set-key [(f8)]         'indent-region)
-(global-set-key [(control f8)] 'align)
-(global-set-key [(shift f8)]   'align-current)
-(global-set-key [(meta f8)]    'align-regexp)
+;;(global-set-key [(f8)]         'indent-region)
+;;(global-set-key [(control f8)] 'align)
+;;(global-set-key [(shift f8)]   'align-current)
+;;(global-set-key [(meta f8)]    'align-regexp)
 
 ;; Version control and change related
 ;(global-set-key [(control f9)]      'rails-svn-status-into-root)  ;; Move to rails mode?
@@ -70,19 +70,15 @@
 (global-set-key (kbd "C-'") 'match-paren)
 
 ;; Easy inserts
-(global-set-key (kbd "C-.") 'insert-arrow)
+;;(global-set-key (kbd "C-.") 'insert-arrow)
 
 ;; ibuffer > list-buffers
 (global-set-key (kbd "C-x C-b") 'ibuffer)
 
 ;; Easier buffer killing
 (global-unset-key (kbd "M-k"))
-(global-set-key (kbd "M-K") 'kill-this-buffer)
+(global-set-key (kbd "M-k") 'kill-this-buffer)
 
-;; Improved navigation and editing (assumes misc.el)
-(global-set-key (kbd "M-Z") 'zap-up-to-char)
-(global-set-key (kbd "M-F") 'forward-to-word)
-(global-set-key (kbd "M-B") 'backward-to-word)
 
 ;; Personal textmate.el bindings
 (global-set-key (kbd "C-c f") 'textmate-goto-file)
@@ -92,7 +88,7 @@
 (global-set-key (kbd "M-,") 'pop-tag-mark) ; was tags-loop-continue
 
 ;; Recentf key
-(global-set-key (kbd "C-x C-r") 'recentf-open-files)
+(global-set-key (kbd "C-x f") 'recentf-open-files)
 
 ;; Smex
 (global-set-key (kbd "M-x") 'smex)
