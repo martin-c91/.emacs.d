@@ -25,7 +25,7 @@
 ;; (global-set-key [(f4)]    'kmacro-end-or-call-macro)  ;; already defined
 
 ;; Refresh-like
-(global-set-key [(f5)]         'revert-buffer)
+(global-set-key [(control f5)]         'revert-buffer)
 
 
 ;; Indenting and alignment
@@ -105,8 +105,9 @@
 (global-set-key (kbd "C-/") 'undo) ;
 (global-set-key (kbd "C-?") 'redo) ;
 
-;;eshell
+;;shell shortcut
 (global-set-key (kbd "C-c C-s") 'eshell) ;
+(global-set-key (kbd "C-c C-S-s") 'eshell-command) ;
 
 ;; Quickly jump in document with ace-jump-mode
 (define-key global-map (kbd "C-c SPC") 'ace-jump-mode)
@@ -114,3 +115,6 @@
 
 ;; Browse the kill ring
 (global-set-key (kbd "C-x y") 'browse-kill-ring)
+
+;; eval-buffer
+(global-set-key [(f5)] 'eval-buffer)
