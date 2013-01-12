@@ -5,3 +5,8 @@ server
 bookmarks
 ac-comphist.dat
 \#*#
+/.emacs.command.frequency
+/.emacs.desktop
+/notes-to-self(ack).txt~
+/history
+/.recentf
