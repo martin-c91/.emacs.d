@@ -41,3 +41,4 @@
 (vendor 'ace-jump-mode 'ace-jump-mode 'ace-jump-word-mode 'ace-jump-char-mode 'ace-jump-line-mode)
 (vendor 'auto-complete)
 (vendor 'full-ack)
+(vendor 'python-mode)
