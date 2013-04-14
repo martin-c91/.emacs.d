@@ -42,3 +42,4 @@
 (vendor 'auto-complete)
 (vendor 'full-ack)
 (vendor 'python-mode)
+(vendor 'php-mode)
