@@ -1,0 +1,13 @@
+[submodule "vendor/autopair"]
+	path = vendor/autopair
+	url = git://github.com/capitaomorte/autopair.git
+[submodule "vendor/shell-pop"]
+	path = vendor/shell-pop
+	url = git://github.com/kyagi/shell-pop-el.git
+
+[submodule "vendor/undo-tree"]
+	path = vendor/undo-tree
+	url = http://www.dr-qubit.org/git/undo-tree.git
+[submodule "vendor/ace-jump-mode"]
+	path = vendor/ace-jump-mode
+	url = git://github.com/winterTTr/ace-jump-mode.git
