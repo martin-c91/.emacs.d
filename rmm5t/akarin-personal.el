@@ -6,15 +6,15 @@
   (interactive "p")
   (save-excursion
     (let ((nb (or n 1))
-	  (current-line (thing-at-point 'line)))
+          (current-line (thing-at-point 'line)))
       ;; when on last line, insert a newline first
       (when (or (= 1 (forward-line 1)) (eq (point) (point-max)))
-	(insert "\n"))
+        (insert "\n"))
 
       ;; now insert as many time as requested
       (while (> n 0)
-	(insert current-line)
-	(decf n)))))
+        (insert current-line)
+        (decf n)))))
 
 (global-set-key (kbd "C-S-d") 'duplicate-current-line)
 
@@ -33,3 +33,19 @@
   (insert-kbd-macro name)               ; copy the macro
   (newline)                             ; insert a newline
   (switch-to-buffer nil))               ; return to the initial buffer
+
+;;Move current line up or down
+(defun move-line-up ()
+  "Move up the current line."
+  (interactive)
+  (transpose-lines 1)
+  (forward-line -2)
+  (indent-according-to-mode))
+
+(defun move-line-down ()
+  "Move down the current line."
+  (interactive)
+  (forward-line 1)
+  (transpose-lines 1)
+  (forward-line -1)
+  (indent-according-to-mode))
