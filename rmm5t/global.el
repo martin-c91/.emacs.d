@@ -23,7 +23,7 @@
 
 (condition-case nil
     (display-battery-mode 1)
-	(error nil))
+        (error nil))
 
 ;; Small fringes
 (set-fringe-mode '(1 . 1))
@@ -34,7 +34,7 @@
 
 ;; Menu must go as well
      (condition-case nil
-	 (menu-bar-mode -1)
+         (menu-bar-mode -1)
        (error nil))
 
 
@@ -93,3 +93,6 @@
 
 ;;set default directory
 (cd (expand-file-name "~"))
+
+;;add newline-and-indent automatically
+(electric-indent-mode +1)
