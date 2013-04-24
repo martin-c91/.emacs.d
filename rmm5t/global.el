@@ -96,3 +96,6 @@
 
 ;;add newline-and-indent automatically
 (electric-indent-mode +1)
+
+;;set linum-mode one
+(linum-mode t)
