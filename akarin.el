@@ -43,3 +43,4 @@
 (vendor 'full-ack)
 (vendor 'python-mode)
 (vendor 'php-mode)
+(vendor 'expand-region)

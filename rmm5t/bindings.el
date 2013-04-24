@@ -119,8 +119,11 @@
 ;; eval-buffer
 (global-set-key [(f5)] 'eval-buffer)
 
-;;move current line up or down
+;; Move current line up or down
 (global-set-key [(control shift up)]  'move-line-up)
 (global-set-key [(control shift down)]  'move-line-down)
 ;;(global-set-key [(meta shift up)]  'move-line-up)
 ;;(global-set-key [(meta shift down)]  'move-line-down)
+
+;; Expand region
+(global-set-key (kbd "C-=") 'er/expand-region)
