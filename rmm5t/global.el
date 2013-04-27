@@ -98,4 +98,4 @@
 (electric-indent-mode +1)
 
 ;;set linum-mode one
-(linum-mode t)
+(global-linum-mode t)
