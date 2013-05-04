@@ -15,12 +15,10 @@
       (while (> n 0)
         (insert current-line)
         (decf n)))))
-
 (global-set-key (kbd "C-S-d") 'duplicate-current-line)
 
 
 ;; Saving macro to ~/.emacs
-
 (defun save-macro (name)
   "save a macro. Take a name as argument
      and save the last defined macro under
@@ -49,3 +47,10 @@
   (transpose-lines 1)
   (forward-line -1)
   (indent-according-to-mode))
+
+;;save clipboard from outside emacs into killring before new kill
+(defadvice kill-new (before kill-new-push-xselection-on-kill-ring activate)
+  "Before putting new kill onto the kill-ring, add the clipboard/external selection to the kill ring"
+  (let ((have-paste (and interprogram-paste-function
+                         (funcall interprogram-paste-function))))
+    (when have-paste (push have-paste kill-ring))))
