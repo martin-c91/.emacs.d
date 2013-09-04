@@ -9,7 +9,7 @@
 (load custom-file 'noerror)
 
 (load "rmm5t/akarin-personal")
-;;(load "rmm5t/theme")
+(load "rmm5t/theme")
 (load "rmm5t/global")
 (load "rmm5t/defuns")
 (load "rmm5t/bindings")
