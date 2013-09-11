@@ -99,3 +99,7 @@
 
 ;;set linum-mode one
 (global-linum-mode t)
+
+;;indentation to 4
+(setq-default c-basic-offset 4)
+(setq-default indent-tabs-mode nil)
