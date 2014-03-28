@@ -25,6 +25,7 @@
 (load "rmm5t/zoom")
 (load "rmm5t/magit")
 (load "rmm5t/sane-defaults")
+;;(load "rmm5t/yasnippet")
 
 ;; (load "rmm5t/transparent")
 ;;(load "rmm5t/hl-line")
