@@ -44,3 +44,4 @@
 (vendor 'python-mode)
 (vendor 'php-mode)
 (vendor 'expand-region)
+(vendor 'yasnippet)
