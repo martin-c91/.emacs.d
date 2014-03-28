@@ -25,7 +25,6 @@
 (load "rmm5t/zoom")
 (load "rmm5t/magit")
 (load "rmm5t/sane-defaults")
-;;(load "rmm5t/yasnippet")
 
 ;; (load "rmm5t/transparent")
 ;;(load "rmm5t/hl-line")
@@ -40,7 +39,7 @@
 (vendor 'undo-tree)
 (vendor 'autopair)
 (vendor 'ace-jump-mode 'ace-jump-mode 'ace-jump-word-mode 'ace-jump-char-mode 'ace-jump-line-mode)
-(vendor 'auto-complete)
+(vendor 'auto-complete 'auto-global-mode)
 (vendor 'full-ack)
 (vendor 'python-mode)
 (vendor 'php-mode)
