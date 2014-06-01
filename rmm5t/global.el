@@ -23,7 +23,7 @@
 
 (condition-case nil
     (display-battery-mode 1)
-        (error nil))
+	(error nil))
 
 ;; Small fringes
 (set-fringe-mode '(1 . 1))
@@ -34,7 +34,7 @@
 
 ;; Menu must go as well
      (condition-case nil
-         (menu-bar-mode -1)
+	 (menu-bar-mode -1)
        (error nil))
 
 
@@ -110,11 +110,11 @@
 
 (defun php-mode-hook ()
   (setq tab-width 4
-        c-basic-offset 4
-        c-hanging-comment-ender-p nil
-        indent-tabs-mode
-        (not
-         (and (string-match "/\\(PEAR\\|pear\\)/" (buffer-file-name))
-              (string-match "\.php$" (buffer-file-name))))))
+	c-basic-offset 4
+	c-hanging-comment-ender-p nil
+	indent-tabs-mode
+	(not
+	 (and (string-match "/\\(PEAR\\|pear\\)/" (buffer-file-name))
+	      (string-match "\.php$" (buffer-file-name))))))
 
 (add-hook 'php-mode-hook 'pear/php-mode-init)
