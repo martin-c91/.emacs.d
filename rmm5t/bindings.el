@@ -129,4 +129,4 @@
 (global-set-key (kbd "C-=") 'er/expand-region)
 
 ;; Disable C-x C-c
-(global-unset-key (kbd "C-x C-c"))
+;(global-unset-key (kbd "C-x C-c"))
