@@ -1,3 +1,5 @@
+(add-to-list 'load-path "~/.emacs.d")
+
 ;;if my-el-dir is not defined, use .emacs.d as default
 (if (boundp 'my-el-dir) nil (progn
                 (setq my-el-dir "~/.emacs.d")))
